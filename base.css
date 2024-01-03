@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #e7e7e7;
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgba(141, 255, 188, 0.356);
 }
 
 .main {
@@ -24,7 +24,7 @@ body {
 
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgba(203, 224, 217, 0.842);
     padding: 10px 20px 0px;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(83, 59, 55);
+    background-color: rgb(119, 116, 116);
     min-height: 110px;
     color: rgba(252, 247, 247, 0.658);
 }
@@ -49,9 +49,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.inline {
-    flex-direction: row;
-}
 
 hr {
     border-color: gray;
