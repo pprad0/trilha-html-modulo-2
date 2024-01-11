@@ -67,7 +67,7 @@
                 Dados Pessoais
               </legend>
               <label>Nome: </label><input type="text" name="name" autofocus required>
-              <label>Email: </label><input placeholder="seu@email.com" type="email" name="email"><br>
+              <label>Email: </label><input placeholder="seu@email.com" type="email" name="email" required><br>
             </fieldset>
 
             <fieldset>
@@ -75,10 +75,11 @@
                 Observações
               </legend>
               <label>Assunto: </label><input type="text" name="message"><br> <br>
-              <label>Mensagem: </label> <textarea placeholder="Sua mensagem aqui" name="message" cols="40"
-                rows="10"></textarea> <br> <br>
+              <label>Mensagem: </label> <textarea placeholder="Sua mensagem aqui" name="message" cols="40" rows="10"
+                required></textarea> <br> <br>
             </fieldset>
 
+            <button type="reset">Limpar</button>
             <button type="submit">Enviar</button>
           </form>
         </div>
