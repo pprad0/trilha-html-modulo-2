@@ -49,6 +49,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
 
 hr {
     border-color: gray;

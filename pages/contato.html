@@ -40,15 +40,15 @@
 
       <div class="content">
         <div>
-          <strong>Contatos</strong>
+          <h2>Contatos</h2>
           <p>Whatsapp: (11) 9xxxx-xxxx</p>
           <p>Telefone: (11) 0000-0000</p>
         </div>
 
         <div>
-          <p><strong>Endereço</strong></p>
+          <h2>Endereço</h2>
           <p>Rua César Penna Ramos, 810a - Vila Santa Maria, São Paulo - SP, 02565-040</p>
-          <p><iframe
+          <p class="centralizar"><iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.496850982263!2d-46.66694151742919!3d-23.489480787703343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef787258c92f1%3A0x81665dca803cb13d!2sRua%20C%C3%A9sar%20Penna%20Ramos%2C%20810a%20-%20Vila%20Santa%20Maria%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002565-040!5e0!3m2!1spt-BR!2sbr!4v1703769446889!5m2!1spt-BR!2sbr"
               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe></p>
@@ -57,16 +57,31 @@
 
 
         <!-- Formulário de contato -->
+        <h2>
+          Fale conosco
+        </h2>
+        <div class="centralizar">
+          <form name=" contactus" onsubmit="alert('Mensagem enviada')" autocomplete="on" method="post" action="#">
+            <fieldset>
+              <legend>
+                Dados Pessoais
+              </legend>
+              <label>Nome: </label><input type="text" name="name" autofocus required>
+              <label>Email: </label><input placeholder="seu@email.com" type="email" name="email"><br>
+            </fieldset>
 
-        <form name="contactus" onsubmit="alert('Mensagem enviada')" autocomplete="on" method="post" action="#">
-          <label>Nome: </label><input type="text" name="name"><br>
-          <label>Email: </label><input type="email" name="email"><br>
-          <label>Assunto: </label><input type="text" name="message"><br>
-          <label>Mensagem: </label> <textarea name="message" cols="40" rows="10"></textarea> <br> <br>
-          <button type="submit">Enviar</button>
-        </form>
+            <fieldset>
+              <legend>
+                Observações
+              </legend>
+              <label>Assunto: </label><input type="text" name="message"><br> <br>
+              <label>Mensagem: </label> <textarea placeholder="Sua mensagem aqui" name="message" cols="40"
+                rows="10"></textarea> <br> <br>
+            </fieldset>
 
-
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
       </div>
 
       <div class="footer">
